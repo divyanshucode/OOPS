@@ -25,6 +25,8 @@ public class Main {
         Student two = one;
         one.name = "XYZ";
         System.out.println(two.name);   //Print XYZ
+
+
     }
 
 }
