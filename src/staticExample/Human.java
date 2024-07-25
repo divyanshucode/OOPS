@@ -9,6 +9,10 @@ public class Human {
     //if static keyword is not used it will put the  population just one for every object
 
 
+    static void message(){
+        System.out.println("this.age"); //you cannot use this in static
+    }
+
     public Human(int age, String name,int salary,boolean married){
         this.age=age;
         this.salary=salary;
