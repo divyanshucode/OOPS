@@ -12,5 +12,10 @@ public class subClass extends A{
 
         //yes:
         //we can access protected  var in same package subclass
+
+        System.out.println(obj instanceof A);
+        System.out.println(obj instanceof subClass);
+        System.out.println(obj instanceof Object);
+        //all true
     }
 }
