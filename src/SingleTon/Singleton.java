@@ -1,9 +1,12 @@
 package SingleTon;
 //Singleton class is a class that can create only one instance( object)
 public class Singleton {
+
+
     //stop allowing use of constructor by making it private
     //so other people cannot create object
     //singleton will run only in this class as it is private
+
     private Singleton (){
 
     }
